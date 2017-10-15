@@ -1,0 +1,19 @@
+{
+  "name": "react-app-starter-kit",
+  "version": "1.0.0",
+  "description": "Starter kit for React front end application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "react-router",
+    "webpack",
+    "sass",
+    "jsx",
+    "es6"
+  ],
+  "author": "",
+  "license": "ISC"
+}
