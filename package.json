@@ -4,7 +4,9 @@
   "description": "Starter kit for React front end application",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config webpack.config.js"
+    "start": "webpack-dev-server --config webpack.config.js",
+    "build": "webpack -d && cp src/app/index.html dist/index.html && webpack-dev-server --hot --inline --colors --progress --content-base src/",
+    "build-production": "webpack -p && cp src/app/index.html dist/index.html" 
   },
   "keywords": [
     "react",
