@@ -1,0 +1,10 @@
+{
+    "extends": ["standard", "plugin:react/recommended"],
+    "rules" : {
+        "indent": ["error","tab"],
+        "no-tabs": 0
+    },
+    "plugins": [
+        "react"
+    ]
+}
