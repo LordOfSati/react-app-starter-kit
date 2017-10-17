@@ -1,5 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Welcome from './components/welcome.jsx'
+import Home from './views/Home.jsx'
 
-ReactDOM.render(<Welcome />, document.getElementById('app-root'))
+ReactDOM.render(<Home />, document.getElementById('app-root'))
