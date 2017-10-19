@@ -42,5 +42,12 @@ module.exports = {
         new ExtractTextWebpackPlugin('styles/main.css', {
             allChunks: true
         })
-    ]
+    ],
+    devServer: {
+        historyApiFallback: true
+    },
+    devtool: 'source-map',
+    stats: {
+        errorDetails: true
+    }
 }

@@ -1,14 +1,13 @@
 import React, { Component } from 'react'
-import Banner from './../components/home/Banner.jsx'
 
-class Home extends Component {
+class ContactUs extends Component {
     render () {
         return (
             <div>
-                <Banner />
+                <h1>Contact Us - Page</h1>
             </div>
         )
     }
 }
 
-export default Home
+export default ContactUs
