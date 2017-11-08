@@ -1,0 +1,27 @@
+#app-root {
+    height: 100%;
+}
+#wrapper {
+    position: relative;
+    min-height: 100%;
+}
+#content {
+    padding-bottom: 200px;
+}
+#banner {
+    display: table;
+    height: 300px; 
+    width: 100%;
+    .content {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+    }
+}
+#footer {
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}

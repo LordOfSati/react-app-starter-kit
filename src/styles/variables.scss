@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
 @import url('//fonts.googleapis.com/css?family=Varela+Round');
 
-$primaryFontFamily: 'Open Sans', sans-serif;
-$headerFontFamily: 'Varela Round', sans-serif;
+$primaryFont: 'Open Sans', sans-serif;
+$headerFont: 'Varela Round', sans-serif;
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+       -moz-border-radius: $radius;
+        -ms-border-radius: $radius;
+            border-radius: $radius;
+}

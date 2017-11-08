@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom'
 import { BrowserRouter } from 'react-router-dom'
 import App from './views/App.jsx'
 import Style from './../styles/main.scss'
-
+import init from './init'
+init()
 ReactDOM.render((
     <BrowserRouter>
         <App />

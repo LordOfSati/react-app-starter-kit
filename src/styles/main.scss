@@ -1,8 +1,37 @@
 @import 'variables';
 
+body,
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
 body {
 	font-weight: 400;
-	font-family: $primaryFontFamily;
+	font-family: $primaryFont;
 	letter-spacing: 0;
-	padding-top: 4.5rem;
+	padding-top: 3.5rem;
 }
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $headerFont;
+}
+ul {
+	list-style-type: none;
+}
+li.inline {
+	display: inline-block;
+}
+
+@import 'footer';
+@import 'layout';
+@import 'home';
+@import 'about';
+@import 'contact';
