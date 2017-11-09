@@ -1,14 +1,16 @@
 import React, { Component } from 'react'
-import NavigationBar from './../components/NavigationBar.jsx'
+import NavigationBar from './../components/common/NavigationBar.jsx'
 import Content from './Content.jsx'
-import Footer from './../components/Footer.jsx'
+import Footer from './../components/common/Footer.jsx'
 
 class App extends Component {
     render () {
         return (
-            <div>
+            <div id="wrapper">
                 <NavigationBar />
-                <Content />
+                <div id="content">
+                    <Content />
+                </div>
                 <Footer />
             </div>
         )
