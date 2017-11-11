@@ -4,21 +4,21 @@ import Post from './Post.jsx'
 
 class PostList extends Component {
     render () {
-        let posts = this.props.posts.map(post => {
+        let postList = this.props.postList.map(post => {
             return (
-                <Post key={post.id} title={post.title} body={post.body} />
+                <Post key={post.id} id={post.id} title={post.title} body={post.body} />
             )
         })
         return (
             <div>
-                {posts}
+                {postList}
             </div>
         )
     }
 }
 
 PostList.propTypes = {
-    posts: PropTypes.array.isRequired
+    postList: PropTypes.array.isRequired
 }
 
 export default PostList
