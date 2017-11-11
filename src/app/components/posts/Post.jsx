@@ -4,11 +4,11 @@ import PropTypes from 'prop-types'
 class Post extends Component {
     render () {
         return (
-            <div className="col-sm-12">
+            <div className="col-sm-12 w-75">
                 <div className="card post">
                     <div className="card-block">
-                        <h4 className="card-title">{this.props.title}</h4>
-                        <p className="card-text">{this.props.body}</p>
+                        <h6 className="card-title">{this.props.title}</h6>
+                        <p className="card-text sub-text">{this.props.body}</p>
                     </div>
                 </div>
             </div>

@@ -1,7 +1,8 @@
 footer {
     text-align: center;
-    .copyright {
-        margin: 0;
+    .copyright, p {
+        color: $grayFontColor;
+        margin: 0.5rem;
     }
     .copyright a {
         border-bottom: 1px dotted;

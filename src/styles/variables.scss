@@ -3,6 +3,8 @@
 
 $primaryFont: 'Open Sans', sans-serif;
 $headerFont: 'Varela Round', sans-serif;
+$grayFontColor: #999999;
+$whiteFontColor: #FFFFFF;
 
 @mixin border-radius($radius) {
     -webkit-border-radius: $radius;

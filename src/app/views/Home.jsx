@@ -17,9 +17,6 @@ class Home extends Component {
                     <div className="content">
                         <h4 className="display-5">Home Page Banner</h4>
                         <p className="lead">And, the description goes here</p>
-                        <p className="lead">
-                            <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-                        </p>
                     </div>
                 </div>
                 <div className="container">
