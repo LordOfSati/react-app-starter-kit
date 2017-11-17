@@ -6,7 +6,7 @@ class AboutUs extends Component {
             <div id="about-content">
                 <div id="banner">
                     <div className="content">
-                        <h3 className="display-5">About Us Page Banner</h3>
+                        <h3 className="display-5 mb-4">About Us Page Banner</h3>
                         <p className="lead">And, the description goes here</p>
                     </div>
                 </div>

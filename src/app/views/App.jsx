@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
+import { Route, Switch } from 'react-router-dom'
+import Home from './Home.jsx'
+import AboutUs from './AboutUs.jsx'
+import ContactUs from './ContactUs.jsx'
 import NavigationBar from './../components/common/NavigationBar.jsx'
-import Content from './Content.jsx'
 import Footer from './../components/common/Footer.jsx'
 
 class App extends Component {
@@ -9,7 +12,11 @@ class App extends Component {
             <div id="wrapper">
                 <NavigationBar />
                 <div id="content">
-                    <Content />
+                    <Switch>
+                        <Route exact path='/' component={Home} />
+                        <Route exact path='/about' component={AboutUs} />
+                        <Route exact path='/contact' component={ContactUs} />
+                    </Switch>
                 </div>
                 <Footer />
             </div>

@@ -23,7 +23,7 @@ class Home extends Component {
             <div id="home-content">
                 <div id="banner">
                     <div className="content">
-                        <h4 className="display-5">Home Page Banner</h4>
+                        <h4 className="display-5 mb-4">Home Page Banner</h4>
                         <p className="lead">And, the description goes here</p>
                     </div>
                 </div>
@@ -39,6 +39,12 @@ class Home extends Component {
                 </div>
             </div>
         )
+    }
+}
+
+const mapStateToProps = (state) => {
+    return {
+        posts: state.posts
     }
 }
 

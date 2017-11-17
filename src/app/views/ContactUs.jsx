@@ -6,7 +6,7 @@ class ContactUs extends Component {
             <div id="contact-content">
                 <div id="banner">
                     <div className="content">
-                        <h3 className="display-5">Contact Us Page Banner</h3>
+                        <h3 className="display-5 mb-4">Contact Us Page Banner</h3>
                         <p className="lead">And, the description goes here</p>
                     </div>
                 </div>
